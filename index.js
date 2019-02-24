@@ -75,14 +75,14 @@ function getTileUrl(data) {
 
 }
 
-module.exports = (...data) => {
+module.exports = (... data) => {
 
   const results = [];
 
   if (data.length) {
 
     results.push(
-      ...data.map(getTileUrl).filter(obj => typeof obj != 'undefined')
+      ... data.map(getTileUrl).filter(obj => typeof obj != 'undefined')
     );
 
   } else {
