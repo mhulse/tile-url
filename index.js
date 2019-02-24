@@ -16,11 +16,6 @@ function getTileUrl(data) {
     data.zoom
   ) {
 
-    // Google Maps tile grid uses a 0-based coordinate system,
-    // so we have to compensate:
-    const x = (data.x - 1);
-    const y = (data.y - 1);
-
     if (data.id == data.key) {
 
       result = 'https://geo3.ggpht.com/cbk?';
@@ -29,8 +24,8 @@ function getTileUrl(data) {
       result += [
         `panoid=${data.id}`,
         'output=tile',
-        `x=${x}`,
-        `y=${y}`,
+        `x=${data.x}`,
+        `y=${data.y}`,
         `zoom=${data.zoom}`,
         // These seem to be optional:
         'nbt',
@@ -60,8 +55,8 @@ function getTileUrl(data) {
         // Width defaults to 512x512:
         // `w${data.width}`,
         // `h${data.height}`,
-        `x${x}`,
-        `y${y}`,
+        `x${data.x}`,
+        `y${data.y}`,
         `z${data.zoom}`,
         // Cache buster needed?
       ].join('-');
