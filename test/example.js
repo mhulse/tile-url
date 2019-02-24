@@ -7,7 +7,7 @@ try {
 
   // Example of how to pass multiple data objects:
   const input = [
-    data[0].input
+    data[0].input,
     data[7].input
   ]
 
