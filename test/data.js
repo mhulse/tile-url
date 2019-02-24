@@ -6,8 +6,8 @@ module.exports = [
       id: "CAoSLEFGMVFpcE94VEpTc0ExX2hwNExZQkRsdG9MZEFwOTNjdDNYZmwyQm1yNUU3",
       key: "AF1QipOxTJSsA1_hp4LYBDltoLdAp93ct3Xfl2Bmr5E7", // image_key
       zoom: 4,
-      y: 6, // rows - 1 = x
-      x: 13 // cols - 1 = y
+      y: 6,
+      x: 13
     },
     output: [
       'https://lh3.ggpht.com/p/AF1QipOxTJSsA1_hp4LYBDltoLdAp93ct3Xfl2Bmr5E7=x13-y6-z4'
