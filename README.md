@@ -2,13 +2,13 @@
 
 Get Google Street View tile URL.
 
-# Installation
+## Installation
 
 ```bash
 $ npm i mhulse/get-tile-url
 ```
 
-# Usage
+## Usage
 
 The `gtu` method expects one, or more, arguments and will return an array with a matching number of “tile url” strings.
 
