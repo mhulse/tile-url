@@ -6,11 +6,11 @@ module.exports = [
       id: "CAoSLEFGMVFpcE94VEpTc0ExX2hwNExZQkRsdG9MZEFwOTNjdDNYZmwyQm1yNUU3",
       key: "AF1QipOxTJSsA1_hp4LYBDltoLdAp93ct3Xfl2Bmr5E7", // image_key
       zoom: 4,
-      x: 13,
-      y: 6
+      x: 0,
+      y: 0
     },
     output: [
-      'https://lh3.ggpht.com/p/AF1QipOxTJSsA1_hp4LYBDltoLdAp93ct3Xfl2Bmr5E7=x13-y6-z4'
+      'https://lh3.ggpht.com/p/AF1QipOxTJSsA1_hp4LYBDltoLdAp93ct3Xfl2Bmr5E7=x0-y0-z4'
     ]
   },
   {

@@ -5,7 +5,7 @@
   "author": "Michael Hulse",
   "license": {
     "//": "https://spdx.org/licenses/",
-    "type": "Apache License 2.0",
+    "type": "Apache-2.0",
     "url": "http://www.apache.org/licenses/LICENSE-2.0"
   },
   "scripts": {
@@ -17,9 +17,7 @@
     "url": "https://github.com/mhulse/get-tile-url.git"
   },
   "main": "index.js",
-  "dependencies": {
-    "fs-extra": "^7.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "mocha": "^6.0.0"
   }

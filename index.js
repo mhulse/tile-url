@@ -9,11 +9,11 @@ function getTileUrl(data) {
     &&
     data.key
     &&
-    data.x
+    (Number(data.x) >= 0)
     &&
-    data.y
+    (Number(data.y) >= 0)
     &&
-    data.zoom
+    (Number(data.zoom) >= 0)
   ) {
 
     if (data.id == data.key) {
