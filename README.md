@@ -1,11 +1,11 @@
-# get-tile-url
+# tile-url
 
 Get Google Street View tile URL.
 
 ## Installation
 
 ```bash
-$ npm i mhulse/get-tile-url
+$ npm i mhulse/tile-url
 ```
 
 ## Usage

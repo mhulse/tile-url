@@ -8,8 +8,8 @@ try {
   // Example of how to pass multiple data objects:
   const input = [
     data[0].input,
-    data[7].input
-  ]
+    data[7].input,
+  ];
 
   // Use apply if array of objects. Or, just pass one object,
   // or multiple objects, seperated by a comma:
