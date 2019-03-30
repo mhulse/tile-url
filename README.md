@@ -10,10 +10,10 @@ $ npm i mhulse/tile-url
 
 ## Usage
 
-The `gtu` method expects one, or more, arguments and will return an array with a matching number of “tile url” strings.
+The `tileUrl` method expects one, or more, arguments and will return an array with a matching number of “tile url” strings.
 
 ```js
-const gtu = require('tile-parser');
+const tileUrl = require('tile-url');
 const tile = {
   id: "CAoSLEFGMVFpcE94VEpTc0ExX2hwNExZQkRsdG9MZEFwOTNjdDNYZmwyQm1yNUU3",
   key: "AF1QipOxTJSsA1_hp4LYBDltoLdAp93ct3Xfl2Bmr5E7", // image_key
@@ -21,7 +21,7 @@ const tile = {
   y: 6,
   x: 13
 };
-console.log(gtu(tile));
+console.log(tileUrl(tile));
 // [
 //   'https://lh3.ggpht.com/p/AF1QipOxTJSsA1_hp4LYBDltoLdAp93ct3Xfl2Bmr5E7=x13-y6-z4'
 // ]

@@ -1,4 +1,4 @@
-const gtu = require('../index');
+const tileUrl = require('../index');
 const data = require('./data');
 
 const urls = [];
@@ -12,8 +12,8 @@ try {
   ];
 
   // Use apply if array of objects. Or, just pass one object,
-  // or multiple objects, seperated by a comma:
-  const url = gtu.apply(null, input);
+  // or multiple objects, separated by a comma:
+  const url = tileUrl.apply(null, input);
 
   // Array of strings returned, so we can use the spread operator and
   // destructure to construct a new, flat, array of url strings:
